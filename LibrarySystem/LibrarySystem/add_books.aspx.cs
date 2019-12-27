@@ -25,7 +25,7 @@ namespace LibrarySystem
         {
             fud_image.SaveAs(Request.PhysicalApplicationPath + "/books_images/" + fud_image.FileName.ToString());
             string path = "/books_images/" + fud_image.FileName.ToString();
-            String query = "insert into books values('" + txt_book_title.Text + "', '" + path + "', '" + txt_book_authorname.Text + "', '" + txt_book_isbn.Text + "', '" + txt_book_qty.Text + "')";
+            String query = "insert into books values(N'" + txt_book_title.Text + "', N'" + path + "', N'" + txt_book_authorname.Text + "', '" + txt_book_isbn.Text + "', '" + txt_book_qty.Text + "')";
             SqlCommand cmd = new SqlCommand(query, con);
 
             try

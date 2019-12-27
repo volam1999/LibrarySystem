@@ -21,7 +21,7 @@
             <div class="card-body">
                 <asp:Repeater ID="r1" runat="server">
                     <HeaderTemplate>
-                        <table class="table table-striped">
+                        <table class="table table-striped" id="table">
                             <thead>
                                 <tr>
                                     <th scope="col">Book Image</th>

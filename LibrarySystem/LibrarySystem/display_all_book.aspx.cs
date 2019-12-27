@@ -49,6 +49,8 @@ namespace LibrarySystem
             }
             con.Open();
 
+            if (IsPostBack) return;
+
             String querry = "select * from books";
             SqlCommand com = new SqlCommand(querry, con);
             com.ExecuteNonQuery();

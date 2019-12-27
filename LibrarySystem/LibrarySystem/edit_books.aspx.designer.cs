@@ -22,6 +22,15 @@ namespace LibrarySystem {
         protected global::System.Web.UI.WebControls.TextBox txt_book_title;
         
         /// <summary>
+        /// lb_book_img control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lb_book_img;
+        
+        /// <summary>
         /// fud_image control.
         /// </summary>
         /// <remarks>

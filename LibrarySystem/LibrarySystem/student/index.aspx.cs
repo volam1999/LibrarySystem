@@ -20,11 +20,6 @@ namespace LibrarySystem.student
             }
             con.Open();
 
-            if(Session["user"] == null)
-            {
-                Response.Redirect("../login.aspx");
-            }
-
             String querry = "select * from books";
             SqlCommand com = new SqlCommand(querry, con);
             com.ExecuteNonQuery();

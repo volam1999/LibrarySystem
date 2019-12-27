@@ -18,6 +18,7 @@
 
                             <div class="form-group">
                                 <label for="" class="control-label mb-1">Book Image</label>
+                                <asp:Label ID="lb_book_img" runat="server"></asp:Label>
                                 <asp:FileUpload ID="fud_image" runat="server" class="form-control"></asp:FileUpload>
                             </div>
 

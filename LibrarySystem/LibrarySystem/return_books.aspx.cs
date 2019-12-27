@@ -91,9 +91,8 @@ namespace LibrarySystem
                     tempdt.Rows.Add(dr);
                 }
 
-                d1.DataSource = tempdt;
-                d1.DataBind();
-
+                r1.DataSource = tempdt;
+                r1.DataBind();
             }
     }
 }
