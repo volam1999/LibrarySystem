@@ -44,6 +44,12 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.Owin, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Owin.4.0.0\lib\net451\Microsoft.Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="Owin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=f0ebd12fd5e55cc5, processorArchitecture=MSIL">
+      <HintPath>..\packages\Owin.1.0\lib\net40\Owin.dll</HintPath>
+    </Reference>
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -213,6 +219,7 @@
     <Content Include="display_all_book.aspx" />
     <Content Include="display_user_info.aspx" />
     <Content Include="edit_books.aspx" />
+    <Content Include="error404.aspx" />
     <Content Include="images\.gitignore" />
     <Content Include="images\admin.jpg" />
     <Content Include="images\avatar\1.jpg" />
@@ -1888,6 +1895,7 @@
     <Content Include="student\index.aspx" />
     <Content Include="student\my_issue_books.aspx" />
     <Content Include="student\view_account.aspx" />
+    <Content Include="assets\css\style404.css" />
     <Content Include="user_active.aspx" />
     <Content Include="user_deactive.aspx" />
     <Content Include="Web.config" />
@@ -1934,6 +1942,13 @@
     </Compile>
     <Compile Include="edit_books.aspx.designer.cs">
       <DependentUpon>edit_books.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="error404.aspx.cs">
+      <DependentUpon>error404.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="error404.aspx.designer.cs">
+      <DependentUpon>error404.aspx</DependentUpon>
     </Compile>
     <Compile Include="index.aspx.cs">
       <DependentUpon>index.aspx</DependentUpon>
@@ -2634,6 +2649,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="books_images\" />
+    <Folder Include="Controller\" />
     <Folder Include="registration_images\" />
   </ItemGroup>
   <PropertyGroup>

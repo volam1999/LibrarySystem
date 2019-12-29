@@ -48,10 +48,10 @@
                     aria-controls="main-menu" aria-expanded="false" aria-label="Toggle navigation">
                     <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand" href="./">
+                <a class="navbar-brand" href="./index.aspx">
                     <h4><strong>Student Panel</strong></h4>
                 </a>
-                <a class="navbar-brand hidden" href="./">
+                <a class="navbar-brand hidden" href="./index.aspx">
                     <h4><strong>S</strong></h4>
                 </a>
             </div>

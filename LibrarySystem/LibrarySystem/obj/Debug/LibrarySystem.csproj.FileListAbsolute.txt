@@ -54,3 +54,6 @@ D:\ASP.NET\LibrarySystem\LibrarySystem\obj\Debug\LibrarySystem.csproj.CoreCompil
 D:\ASP.NET\LibrarySystem\LibrarySystem\obj\Debug\LibrarySystem.csproj.CopyComplete
 D:\ASP.NET\LibrarySystem\LibrarySystem\obj\Debug\LibrarySystem.dll
 D:\ASP.NET\LibrarySystem\LibrarySystem\obj\Debug\LibrarySystem.pdb
+D:\ASP.NET\LibrarySystem\LibrarySystem\bin\Microsoft.Owin.dll
+D:\ASP.NET\LibrarySystem\LibrarySystem\bin\Owin.dll
+D:\ASP.NET\LibrarySystem\LibrarySystem\bin\Microsoft.Owin.xml

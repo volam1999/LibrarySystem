@@ -89,7 +89,7 @@ namespace LibrarySystem.student
                     dr["latedays"] = "0";
                 }
 
-                dr["penalty"] = Convert.ToDouble(noofdays) * Convert.ToDouble(penalty);
+                dr["penalty"] = Convert.ToDouble(dr["latedays"].ToString()) * Convert.ToDouble(penalty);
 
                 tempdt.Rows.Add(dr);
             }
